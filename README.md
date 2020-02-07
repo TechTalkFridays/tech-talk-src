@@ -1,3 +1,3 @@
-# dead_simple
+# Tech Talk Fridays
 
-A dead simple project.
+A hello world project to test pipelines.
