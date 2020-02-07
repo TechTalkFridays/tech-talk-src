@@ -1,0 +1,12 @@
+---
+name: dead-simple-prod
+image: registry.gitlab.com/thereisnocowlevel/dead_simple/develop:44a75c5c7fa3573e1ca5492b0b5a809636f3ec2c
+exposedHost: dead-simple-prod.com
+replicas: 1
+resources:
+  limits:
+    cpu: 0.2
+    memory: 60Mi
+  requests:
+    cpu: 0.1
+    memory: 40Mi
